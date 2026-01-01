@@ -49,7 +49,7 @@
           <OutputName>washingMachine_8051</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
@@ -191,7 +191,7 @@
             <RomSize>2</RomSize>
             <DataHold>0</DataHold>
             <XDataHold>0</XDataHold>
-            <UseOnchipRom>0</UseOnchipRom>
+            <UseOnchipRom>1</UseOnchipRom>
             <UseOnchipArithmetic>0</UseOnchipArithmetic>
             <UseMultipleDPTR>0</UseMultipleDPTR>
             <UseOnchipXram>0</UseOnchipXram>
@@ -233,7 +233,7 @@
               <RCB>
                 <Type>0</Type>
                 <StartAddress>0x0</StartAddress>
-                <Size>0x0</Size>
+                <Size>0x10000</Size>
               </RCB>
               <RXB>
                 <Type>0</Type>
@@ -410,6 +410,41 @@
               <FileName>seven_segment.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\code\seven_segment.c</FilePath>
+            </File>
+            <File>
+              <FileName>switch.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\code\switch.c</FilePath>
+            </File>
+            <File>
+              <FileName>switch.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\code\switch.h</FilePath>
+            </File>
+            <File>
+              <FileName>washer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\code\washer.h</FilePath>
+            </File>
+            <File>
+              <FileName>soes.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\code\soes.h</FilePath>
+            </File>
+            <File>
+              <FileName>soes.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\code\soes.c</FilePath>
+            </File>
+            <File>
+              <FileName>washer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\code\washer.c</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\code\main.c</FilePath>
             </File>
           </Files>
         </Group>
